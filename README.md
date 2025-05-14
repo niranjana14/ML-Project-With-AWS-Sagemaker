@@ -11,30 +11,30 @@ This project demonstrates training a machine learning model using **Amazon SageM
 
 ## ✅ Overview Steps
 
-# 1. Create an S3 Bucket
+## 1. Create an S3 Bucket
 - Store training data and output model artifacts.
 
-# 2. Prepare Training Data
+## 2. Prepare Training Data
 - Upload your dataset (e.g., CSV) to the S3 bucket.
 
-# 3. Launch SageMaker Notebook Instance or VS Code
+## 3. Launch SageMaker Notebook Instance or VS Code
 - Open `research.ipynb`.
 
-# 4. Set Up SageMaker Role and S3 Paths
+## 4. Set Up SageMaker Role and S3 Paths
 - Define the IAM role and S3 input/output locations in the notebook.
 
-# 5. Configure the Estimator
+## 5. Configure the Estimator
 - Use a built-in or custom container (e.g., `SKLearn`).
 - Set hyperparameters, instance type, and paths.
 
-# 6. Train the Model
+## 6. Train the Model
 - Run the training job with `.fit()` using the S3 input path.
 
-# 7. Review Output
+## 7. Review Output
 - Check model artifacts saved in the S3 output path.
 - Review logs in the SageMaker console.
 
-# 8.  Deploy Model
+## 8.  Deploy Model
 - Use `.deploy()` to create a SageMaker endpoint for inference.
 
 
