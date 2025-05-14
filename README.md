@@ -46,7 +46,7 @@ This project demonstrates training a machine learning model using **Amazon SageM
   ![image](https://github.com/user-attachments/assets/b5fc7faa-1c1b-4ffe-bf01-c889e2b594bd)
 
 - Deployment (Endpoint)
-  ![image](https://github.com/user-attachments/assets/d4007956-211e-4c10-b598-69e90651b7ed)
+  ![image](https://github.com/user-attachments/assets/a86c4d95-0606-4447-9fd8-8943816c87f0)
 
 
 
